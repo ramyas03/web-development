@@ -1,0 +1,26 @@
+p {
+
+  padding: 0px;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #773421;
+}
+body{  width:750px;}
+h1 ,h2{
+  
+  padding:5px;
+  text-align:center;  
+  background-color: #AAAAAA;
+  
+}
+ol {
+  background-color: #DFFDFF;
+}
+
+h1 {
+  background-color: #AFFFFF;
+}
+
+.contact-us {
+  background-color: #334257;
+}
