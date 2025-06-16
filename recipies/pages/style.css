@@ -1,26 +1,51 @@
 p {
 
-  padding: 0px;
+  padding: 10px;
   text-align: center;
   margin-bottom: 10px;
   color: #773421;
 }
-body{  width:750px;}
+body{  
+  margin:auto;
+  width:750px;
+}
+h1{
+  border-width: 3px;
+  border-style:dashed;
+  border-color: aqua;
+}
 h1 ,h2{
-  
   padding:5px;
   text-align:center;  
   background-color: #AAAAAA;
   
 }
-ol {
-  background-color: #DFFDFF;
+ol, ul{
+  padding: 30px;
+  background-color: #e8ff96;
 }
 
 h1 {
   background-color: #AFFFFF;
 }
+img{
+width: 736px;
+border: rgb(62, 27, 77);
+  border-style: double;
+  border-width:7px ;
+}
+.link{ 
+  border-style: dashed;
+  border-width: 1px;
+  background-color: #AFFFFF;
+  padding: 5px;
+  border-color: #8d68ea;
+  margin-left:auto;
+}
 
-.contact-us {
-  background-color: #334257;
+.des{
+  border-color: black;
+  border-left-style:dotted ;
+  border-right-style:dotted;
+
 }
