@@ -1,0 +1,146 @@
+body{background-color:black; 
+    width:1200px;
+    margin:0px auto 100px;
+    font-family: Roboto;
+}
+.container{display: flex;}
+.header{
+    color: white;
+    padding: 20px 150px 5px;
+    background: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.menu{  
+    text-align: center;
+    align-self: flex-end;
+    justify-content: space-evenly;
+ 
+    gap: 8px;
+}
+.menu .item {
+
+    font-size: 18px;
+}
+
+.section1{
+    background: #1F2937;
+    display: flex;
+    padding: 80px 150px 100px;
+    color: white;
+    
+
+}
+.right{
+    flex: 1 1 0%;
+    
+}
+.left{
+    padding: 10px;
+    flex: 1 1 0%;
+    
+}
+.section1 .left p{
+
+    font-size: 18px;
+}
+.section1 .left .top{
+    font-size: 48px;
+    font-weight: 900;
+
+}
+
+#info_h{
+    text-align: center;
+    background-color: white;
+    font-size: 36px;
+    font-weight: 900;
+
+}
+
+.section2{
+    padding: 200px 200px 50px;
+    display: flex;
+    justify-content: center;
+    gap: 110px;
+    padding: 50px 50px 50px;
+   background-color: white;
+}
+.section2 .item {
+   
+   width: 100px;
+   height:fit-content;
+}
+.section2 .item img{
+   border-radius: 25%;
+   width: 100px;
+   height:auto;
+
+}
+
+
+.section3{
+     background: #cfd2da;
+     padding:  100px auto 100px;
+     display: flex;
+     justify-content: center;
+     padding: 50px;
+    
+}
+
+.section3 .box{
+    padding :0px 100px 0px;
+    font-size: 36px;
+    border-width: 5px;
+    font-style:italic ;
+    font-weight: 100;
+    width: 700px;
+}
+.section4{
+     
+    padding:  100px 100px 100px;
+    
+    background: rgb(255, 255, 255);
+}
+
+.section4 .box{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding :5px 100px 5px;
+    border-width: 5px;
+    background-color: rgb(57, 140, 255);
+
+    color: white;
+    width: 700px;
+}
+.footer{
+    text-align: center;
+    padding: 8px 0px 8px;
+    background: #1F2937;
+    color: white;
+
+}
+
+.section1 button{
+    display: block;
+    color: white;
+    background-color: rgb(57, 140, 255);
+    margin: 5px;
+    padding: 4px 15px 5px ;
+    border-style: none;
+    border-radius:50%;
+}
+
+.section4 button{
+
+    color: white;
+    background-color: rgb(57, 140, 255);
+    margin: 5px;
+    padding: 2px 25px 4px ;
+    border-color: white;
+    border-radius:50%;
+}
+
+
